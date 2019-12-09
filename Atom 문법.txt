@@ -1,0 +1,53 @@
+Atom 문법 = 컴퓨터 공학은 시다!
+
+unsplash.com = 좋은 이미지 많음
+
+ heading제목의 약자임 두께와 크기가 1이 가장 큼(h1~h6까지 있음) 
+
+ <h1> Hi </h1>
+
+ <p> paragraph 단락을 띄우는 문법. 
+  
+ 안녕하세요
+ 
+ <p> 이곳은 원종자 홈페이지입니다. </p>
+
+ ex) CSS를 이용하여 줄 간격을 바꿀 수 있다 예제 숫자<p style="margin-top:45px;">
+
+ <br> line break의 약자로 줄바꿈 쓰인다. 닫기 태그를 사용하지 않아도 된다.
+
+ <br><br><br> 줄바꿈
+
+ strong 안의 단어들을 두꺼운 글씨로 변경
+
+ <strong> hello world </strong>   
+
+ underline을 뜻하는 u 사이 안의 단어들은 밑줄로 변경
+
+ <u> hello world </u>
+
+ 이미지 넣는 문법
+ 
+ <img source="">
+ <img src="">
+
+ <img src="전구.jpg" width="100%"> - source와 width의 위치는 변경되어도 상관 없다. 
+
+ <ol> 자동으로 숫자 넘버링을 할때 사용, <ul> 리스트의 어미격
+
+ <li 안녕> list(목록)의 약자
+ <li 하이>  
+
+ </ol>, </ul>
+
+a는 링크를 의미하며 h는 HTML의 H를 따 reference의 초기 ref를 합친다
+
+<a href="https://www.w3.org/TR/html5/" target="_blank" title="창업 나무위키">
+ target="_blank"는
+ 링크를 클릭했을 때
+ 새창에서 페이지가 열리게 하는 속성
+
+ title은 커서를 단어 위에 두었을때 미리보기의 글씨가 뜨게 하는것
+
+
+ 제목을 사용할 때 제목크기와 색등 우리가 일반적으로 사용하는 도구를 사용하는것보다,  <h1> Hi </h1> 과 같은 고딩처리된 글(블로그 등)이 검색엔진으로 봤을 때 더욱 노출되기 쉽다.!!(아주 중요) 
